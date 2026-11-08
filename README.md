@@ -1,6 +1,6 @@
 # It's bedtime
 
-Victor Ibanez's SAS 1: Self and Society project, floating edition.
+Victor Ibanez's SAS 1: Self and Society project
 
 ## GitHub Pages
 
