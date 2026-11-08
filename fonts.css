@@ -1,0 +1,8 @@
+/* DM Sans, served locally. License: fonts/dmsans-OFL.txt */
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 100 1000;
+  font-display: swap;
+  src: url('fonts/font-2.woff2') format('woff2');
+}

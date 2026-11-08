@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f3f4f6">
+  <meta name="description" content="Victor Ibanez's SAS 1 self project: personal reflections, two interviews, and personal and health manifestos.">
+  <title>It's bedtime</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="fonts.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <script src="sky.js" defer></script>
+</head>
+<body>
+  <div class="sky-backdrop" aria-hidden="true"><canvas id="sky-canvas"></canvas></div>
+  <a class="skip-link" href="#main">Skip to the reflection</a>
+  <aside class="sidebar" id="sidebar" aria-label="Project contents">
+    <div class="sidebar-heading">
+      <a class="site-title" href="#home">It's bedtime</a>
+      <button id="menu-button" class="menu-button" type="button" aria-expanded="false" aria-controls="page-navigation">Contents</button>
+    </div>
+    <p class="sidebar-author">Victor Ibanez<br>BS Computer Science, Junior</p>
+    <nav id="page-navigation" class="page-nav" aria-label="Sections">
+      <a href="#home" class="active" aria-current="location">Introduction</a>
+      <a href="#reflections">Course reflections</a>
+      <a href="#interviews">Two interviews</a>
+      <a href="#manifesto">Personal manifesto</a>
+      <a href="#wellbeing">Health manifesto</a>
+      <a href="#references">References</a>
+    </nav>
+    <div class="reading-tools" aria-label="Reading tools">
+      <button id="text-size" type="button" aria-pressed="false">Larger text</button>
+      <button id="print-journal" type="button">Print this project</button>
+      <button id="motion-toggle" type="button" aria-pressed="false">Pause motion</button>
+    </div>
+    <p class="sidebar-course">SAS 1: Self and Society<br>Self Project</p>
+  </aside>
+
+  <main id="main">
+    <!-- Personal content is based on Victor's supplied answers and interview notes. -->
+    <section id="home" class="chapter introduction" aria-labelledby="intro-title">
+      <header class="project-heading dream-hero">
+        <div class="hero-copy">
+          <h1 id="intro-title"><span>It's</span><br><span class="title-second">bedtime</span></h1>
+          <p class="author">Victor Ibanez · BS Computer Science · Junior</p>
+          <p class="lead">I like having time to myself, doing things I enjoy, and keeping life as comfortable as I can. Like in this bed -></p>
+        </div>
+        <div class="hero-scene">
+          <div class="moon-disc" aria-hidden="true"></div>
+          <span class="orbit-ring" aria-hidden="true"></span>
+          <span class="orbit-star star-one" aria-hidden="true"></span>
+          <span class="orbit-star star-two" aria-hidden="true"></span>
+          <span class="orbit-star star-three" aria-hidden="true"></span>
+          <div class="bed-shadow" aria-hidden="true"></div>
+          <button class="bed-button" id="floating-bed" type="button" aria-label="Give the floating bed a gentle nudge">
+            <img src="assets/floating-bed.png" alt="" width="1254" height="1254" fetchpriority="high" decoding="async">
+          </button>
+        </div>
+      </header>
+      <div class="intro-reading reading-surface">
+      <h2>Who I am right now</h2>
+      <p>A normal day is mostly me doing whatever I want, unless there's something that needs to be done work-wise or education-wise. The things I willingly spend effort on are usually things I really like and can get into the flow of. Competitive video games, cooking, and making videos are the first things in mind.</p>
+      <p>My definition of myself is to not be chained by anything as much as possible. I want a job I don't despise, enough money to live comfortably, and time to do the things I love. That's what I mean when I say I have high dreams. I don't really want a life where I have money but no time to enjoy it.</p>
+      <h2>How I came to see myself this way</h2>
+      <p>As a child, I was very extroverted, just saying whatever stuff came to mind. In elementary, I was your typical sporty guy. I really liked basketball and was part of varsity. I guess you could say I stood out a bit back then.</p>
+      <p>Around thirteen, I started noticing how shy I was around unfamiliar people. Even ordering food or talking to a barber made me nervous. In high school, I was still into many of the same things, just more introverted. I kind of blended into the background, which I definitely prefer.</p>
+      <p>Now I'm pretty settled about being an introvert. I've managed the social anxiety better, and I can “fake” being an extrovert when I need to. That doesn't mean I suddenly want to talk to everyone. I can do it, then go back to being quiet.</p>
+      <p>What I'm still figuring out is how to keep putting effort into things I like. Sometimes I can't continue even when I still enjoy what I'm doing. That's a massive downer for me. So I have a fairly clear idea of what I want and what kind of person I am, but I haven't figured out how to make all my habits line up with that. My idea of myself includes those unfinished parts too.</p>
+    </section>
+
+    <section id="reflections" class="chapter" aria-labelledby="reflections-title">
+      <h2 id="reflections-title">Part 1: Course reflections</h2>
+      <p>Our class helped me look at the self through the body, personality, relationships, and the places we grow up in. These are the connections I can make to my own life.</p>
+      <nav class="topic-index" aria-label="Jump to a reflection topic">
+        <a href="#perspectives">Perspectives of self</a>
+        <a href="#biology">Biological influences</a>
+        <a href="#body-image">Body image</a>
+        <a href="#personality">Personality</a>
+        <a href="#identity">Identity development</a>
+        <a href="#culture">Culture and ethnicity</a>
+        <a href="#ai">The self in the age of AI</a>
+        <a href="#mental-health">Mental health and wellbeing</a>
+      </nav>
+      <article id="perspectives" class="reflection">
+        <h3>Perspectives of self</h3>
+        <p>If I had to connect my ideal self to a philosophy, it would be Epicureanism. I want comfort, and I'm willing to do what needs to be done to get there. What I connect with is the idea of a pleasant life with less pain and worry. Epicurus also explains why we might accept something unpleasant now if it leads to something better later. Schoolwork fits there for me, even if it's not what I'd choose to do with a free afternoon.</p>
+        <p>Essentialism and social constructionism gave me two ways to think about why I am like this. Essentialism looks at qualities as more fixed, while social constructionism pays attention to how identity gets shaped around other people. I used to be outgoing as a kid, then became much quieter. That change makes it hard for me to say I have always been exactly the same person.</p>
+        <p>With the Twenty Statements Test's “Who am I?” question, some answers come pretty easily: I'm quiet, I'm a computer science student, and I'm a gamer. Those aren't all the same kind of answer. One is a trait, another is my role in school, and another is something I spend a lot of time doing. That's why just calling myself lazy doesn't really explain the whole thing.</p>
+      </article>
+      <article id="biology" class="reflection">
+        <h3>Biological influences</h3>
+        <p>My sleep depends a lot on where I am. At the college dorm, I probably average around four hours a night. At home in QC, it's closer to ten. That's a pretty big difference just from being in a different place.</p>
+        <p>Biological influences helped me remember that I have a body involved in all this, not just a personality. Sleep and physical needs are part of how I function. The nature and nurture discussion also matters here. There are biological influences, but the routine I get into at the dorm is connected to my environment too.</p>
+        <p>I can't explain everything by saying “that's just how I am.” At the same time, I can't tell which traits are inherited just by looking at myself. My sleep is a clearer example to work with: I have the same body at school and at home, but the way I live in those places is quite different.</p>
+      </article>
+      <article id="body-image" class="reflection">
+        <h3>Body image</h3>
+        <p>Back in high school, I had pretty bad insecurities that I was actively hiding. There were certain parts of myself I wanted to change physically, for some reason. I don't think social media, friends, or family caused it. I just didn't like those parts of my appearance.</p>
+        <p>The body image topic made sense to me because what I thought about my body wasn't necessarily what other people saw. I was keeping a lot of those feelings to myself. It still affected how I saw myself, even if I wasn't openly talking about it.</p>
+        <p>Now in college, I barely care about looks compared to before. What matters is that I don't smell bad. That's pretty much my standard now. I wouldn't say I suddenly love every part of my appearance; it just doesn't take up as much space in my head anymore.</p>
+      </article>
+      <article id="personality" class="reflection">
+        <h3>Personality</h3>
+        <p>I'd describe myself as easygoing, calm, quiet, and a thinker. I think my friends feel relaxed when I'm around, like they wouldn't mind just being themselves. In group work, I participate when needed. If I quietly think of a way to improve something, I'll relay it to the group.</p>
+        <p>The trait approach helps me put names to some of this. Introversion fits me, while conscientiousness, or being organized and following through, is a bit more mixed. I almost always submit on the same day as the deadline. But if an assignment is long, I usually split it across the previous days and keep doing enough until the actual deadline.</p>
+        <p>For unfamiliar situations, I try to stay calm so I can take things in and make them familiar. Being quiet doesn't mean I'm unable to talk or work with people. It mostly means that's the way I'm comfortable being. I can adjust when I have to.</p>
+      </article>
+      <article id="identity" class="reflection">
+        <h3>Identity development</h3>
+        <p>I chose computer science because I've always been a computer boy. Ever since I was a kid, I was glued to video games and drawn to anything tech-related. Computers were already a part of who I was before I had to pick a course.</p>
+        <p>Marcia's ideas about exploration and commitment help explain where I am now. I'm committed to my course, but I don't have one exact job or career path picked out. I'd like to go with the flow when a good opportunity comes up. I know the kind of life I want more clearly than the exact way I'll get there.</p>
+        <p>Gaming is also part of my identity because it helped me make friends and become closer to them. Then there's cooking, making videos, and the basketball side of me from before. Those are all parts of me. The thing I'm still trying to figure out is how to keep doing the things I enjoy with consistent effort, because liking them doesn't always seem to be enough.</p>
+      </article>
+      <article id="culture" class="reflection">
+        <h3>Culture and ethnicity</h3>
+        <p>The respect culture in our household definitely rubbed off on me. I find myself saying “po” and “opo” even to people younger than I am. I try to be respectful and courteous about small things in public. Learning about culture helped me see that this is something I picked up through the way I was raised.</p>
+        <p>All four of my other siblings studied at UP, so that expectation rubbed off on me too. I really didn't want to break the sibling-UP streak. Even with my relaxed approach, that gave me a reason to study hard. My family influenced what education meant to me before I was making those choices on my own.</p>
+        <p>Subculture also fits the gaming side of my life. Shared games and interests gave me ways to connect with people. I don't think culture only shows up in big traditions. It can also be in how we talk at home or the people we spend our free time with. I can recognize those influences without assuming everyone from the same background will turn out like me.</p>
+        <p>The Implicit Association Test brings up something else: automatic associations aren't always the same as the attitudes we consciously express. I try to be respectful, but that alone doesn't prove I have no biases. It's something worth thinking about, even if being courteous already feels natural to me.</p>
+      </article>
+      <article id="ai" class="reflection">
+        <h3>The self in the age of AI</h3>
+        <p>AI mainly helps when I have no idea where to start. My ADHD brain gets jumbled up a lot, so dividing tasks with AI makes things easier and more bite-sized. In a way, it helps my independence because I don't need to rely on other people as much for certain tasks.</p>
+        <p>At the same time, as a creative person, it kind of sucks seeing AI do visual work I've spent hundreds of hours practicing. Video editing is the main example for me. Seeing software do seamless edits with similar quality, but at a much faster speed, honestly breaks my heart a little. A skill I spent all that time learning doesn't feel as exclusive anymore.</p>
+        <p>That's why human agency matters to me, which is also emphasized in UNESCO's guidance. I want help with organizing a task, but I still want a say in what I'm making and what represents me. I can find AI useful and still dislike what it's doing to creative work. Both feelings are there.</p>
+      </article>
+      <article id="mental-health" class="reflection">
+        <h3>Mental health and wellbeing</h3>
+        <p>The thing that stresses me out the most is college, especially when exams overlap. I want to focus on one exam at a time. So if there's multiple exams in a week, say four, I prioritize the subjects where my standing is risky. That's an example of problem-focused coping: doing something about the situation I can actually work on.</p>
+        <p>For downtime, it's mostly games, manhwa, manga, and cooking for videos when I have enough funds. My screen time can be anywhere from one hour to ten. It barely comes from social media though. I find that exhausting. If a series is good and long, I can spend a whole free day reading it.</p>
+        <p>I feel good when I'm not doing anything stressful. Sometimes I do feel unproductive, so that's that. But being unproductive can be a gift for me. On a free day, I'd honestly rather enjoy myself than keep finding things to accomplish. Wellbeing has to include that side of my life too, while I still deal with the schoolwork that needs doing.</p>
+      </article>
+    </section>
+
+    <section id="interviews" class="chapter" aria-labelledby="interviews-title">
+      <h2 id="interviews-title">Part 2: Two interviews</h2>
+      <p class="section-intro">I asked two friends I've known since high school. One is also my dormmate, and the other is my neighbor in QC.</p>
+      <div class="interview-summary">
+        <p>The first friend is my dormmate and a longtime friend from high school. They described me as cool, handsome, smart, and special. They also said I take initiative and that I'm dependable. Their example was a table they were having a hard time assembling. I helped put it together, and apparently I made it look easy. They weren't really sure what weakness to point out. They thought what I wanted in life was financial freedom and security.</p>
+        <p>The second is a high school friend and neighbor in QC. They described me as someone who just does whatever. They brought up my one-year break from studying, when I took time to do what I wanted. They found that pretty crazy. They also said I can be lazy, especially when I skip classes that don't seem worth it to me. For a strength, they mentioned my competitive gaming skills. Their answer about what I wanted from life was basically, “money bro.”</p>
+        <p>I don't really disagree with either of them, and nothing surprised me that much. I feel like I'm a simple guy, so their answers were mostly what I'd expect. Money probably is the ultimate thing I want, because it's hard to be comfortable without it. Once I'm stable, I'd like to give what I don't need to family or charity. I'm not there yet though. I also agree that I can be easygoing and dependable. Helping someone doesn't have to go against wanting time for myself.</p>
+      </div>
+    </section>
+
+    <section id="manifesto" class="chapter" aria-labelledby="manifesto-title">
+      <h2 id="manifesto-title">Part 3A: My personal manifesto</h2>
+      <div class="declaration"><p>I want to live comfortably and not be chained by things as much as possible. I want work I don't despise, enough money, and time for what I like. But I don't want to prioritize my own comfort by setting others on fire. If people depend on me, I still want them to say they can rely on me.</p></div>
+      <h3>The things that matter to me</h3>
+      <dl class="values">
+        <div><dt>Family</dt><dd>Life would be pretty horrid without family. I'd have nowhere to go home to and no one to share that comfort with. They're a big part of why a comfortable life matters to me.</dd></div>
+        <div><dt>Comfort</dt><dd>I decided that achieving comfort would be my life's goal. That means enough money, freedom over my time, and being able to do the things I love.</dd></div>
+        <div><dt>Health</dt><dd>I want to be healthy enough to enjoy that life. The last thing I want is to end up with something incurable, so this matters a lot to me.</dd></div>
+      </dl>
+      <h3>What I believe</h3>
+      <p>I think success, effort, and luck all play with each other. Taking a shot gives you a chance, even if it feels like a one-in-ten-thousand chance. If you never try, you don't even get that. Effort gives luck more chances to work with, and success can come from the two meeting. That's how I see opportunities, including the people I happen to meet.</p>
+      <p>I know I can put in effort because I've done it with games, cooking, and videos. The problem is keeping it up. Sometimes I still like something but can't seem to continue doing it. I haven't figured that part out yet, and I don't want to write as if I already have.</p>
+      <p>I also don't want my relaxed approach to make me unreliable. My friend remembered me helping with a table, which is a simple thing, but I'd like people to be able to count on me for things like that. I can want comfort for myself without leaving someone else to deal with a problem I agreed to help with.</p>
+      <h3>A few rules I want to keep</h3>
+      <ul class="principles">
+        <li><strong>Don't get comfortable at someone else's expense.</strong> I don't want to achieve my goals by making things harder for other people.</li>
+        <li><strong>Stay someone people can rely on.</strong> Even with my easygoing approach, I want people to be able to say, “I can rely on him for this.”</li>
+        <li><strong>Take a chance when something looks worthwhile.</strong> I won't know what an opportunity could lead to if I never try it.</li>
+        <li><strong>Keep time for the things I actually like.</strong> A good job should still leave me room for games, cooking, videos, family, and myself.</li>
+      </ul>
+      <h3>What I am aiming for</h3>
+      <p>My goal this semester is pretty simple: pass everything and don't fail a subject. Longer term, I want to get a good internship opportunity and slowly build up my portfolio. I'm open to where that takes me.</p>
+      <p>The job I want is one I don't despise, where the stress is manageable and I still have time to do the things I love. Financial freedom and security are a big part of that. When I reach a level of comfort and stability, I'd like to give what I don't need to family or charity. I'm not there yet, but that's what I'd want to do.</p>
+      <p>For now, I want to go with the flow without completely ignoring opportunities. I don't have a grand plan for every year of my life. I just know the life I want to live, and that's what makes it worth working toward.</p>
+    </section>
+
+    <section id="wellbeing" class="chapter" aria-labelledby="wellbeing-title">
+      <h2 id="wellbeing-title">Part 3B: My health manifesto</h2>
+      <div class="declaration"><p>I want to stay healthy so I can actually enjoy the comfortable life I'm aiming for. I'm willing to put time into building strength, and I want room for my interests and the people close to me. I don't want health to become another thing I only talk about wanting.</p></div>
+      <h3>Where I am starting</h3>
+      <p>My habits depend mostly on where I am and what's available. At the dorm, my sleep is very different from when I'm home in QC. Food also depends on what I can afford. So this is where I'm starting from, and it's not some perfect routine.</p>
+      <dl class="habits">
+        <div><dt>Sleep</dt><dd>At the dorm, I probably average around four hours a night. At home in QC, it's around ten.</dd></div>
+        <div><dt>Meals</dt><dd>Mostly what's available, and quite a lot of carbs because meat is expensive. I do get protein from protein powder though.</dd></div>
+        <div><dt>Water</dt><dd>I'd say around two to three liters a day, but sometimes I forget to keep drinking.</dd></div>
+        <div><dt>Movement</dt><dd>I walk for about an hour on a school day, usually with a heavy backpack.</dd></div>
+        <div><dt>Screen time</dt><dd>Anywhere from one hour to ten. Mostly manga, manhwa, and games rather than social media.</dd></div>
+      </dl>
+      <h3>Physical health</h3>
+      <p>I'm willing to commit multiple hours a week to exercising and building strength. I already walk a lot on school days, and I used to be into basketball. I'd like to put more deliberate time into exercise too.</p>
+      <p>For sleep and meals, I haven't worked out a detailed plan. I can't honestly put one here and say I'm following it. I do want to pay attention to those habits, because health is one of the things I care about most. I want to enjoy my life without constantly worrying about getting sick.</p>
+      <h3>Mental space and learning</h3>
+      <p>When exams overlap, I prioritize the subjects where I'm at risk. When a task feels jumbled, breaking it into smaller parts helps me get a starting point. Those are things I already do, so they're more realistic for me to keep using than pretending I'll suddenly be organized all the time.</p>
+      <p>I'm also willing to learn skills I can use for a future job. But I still want time for games, reading, cooking, and videos. Not everything I enjoy has to become productive. Sometimes I just want to read a good series for hours, and I'm fine with that.</p>
+      <h3>Relationships and boundaries</h3>
+      <p>For romantic relationships, I don't really have plans right now. Even if I like someone, I'd usually just admire from afar and not take my chances. I want to live just for me for now. The less responsibilities I have, the better.</p>
+      <p>That doesn't mean family and friends don't matter. Family is one of the main things I care about, and I still want to be someone people can rely on. I'm comfortable keeping those connections without adding a relationship I don't currently want.</p>
+      <h3>A sense of meaning</h3>
+      <p>My sense of meaning right now is mostly living comfortably. Having time for myself, being around people I'm comfortable with, and not having too many things hanging over me. I can't think of one dramatic personal experience behind every choice. Most of it comes from knowing what I enjoy and what I find stressful in an ordinary week.</p>
+      <p>I'm still figuring out how to follow through on some of this. But I know I want to be healthy, have enough freedom, and enjoy the things I like doing. That's what I want these habits to support.</p>
+    </section>
+
+    <section id="references" class="chapter references" aria-labelledby="references-title">
+      <h2 id="references-title">References</h2>
+      <p>The personal parts come from my own answers and the two interviews. These readings are the sources for the class concepts I connected to those experiences.</p>
+      <ul class="reference-list">
+        <li>Epicurus. <a href="https://classics.mit.edu/Epicurus/menoec.html" target="_blank" rel="noopener noreferrer">Letter to Menoeceus</a>, translated by Robert Drew Hicks.</li>
+        <li>DeLamater, J. D., &amp; Hyde, J. S. (1998). <a href="https://doi.org/10.1080/00224499809551913" target="_blank" rel="noopener noreferrer">Essentialism vs. Social Constructionism in the Study of Human Sexuality</a>.</li>
+        <li>Spencer-Oatey, H. (2012). <a href="https://warwick.ac.uk/fac/soc/al/globalpad-rip/openhouse/interculturalskills/core_concept_compilations/global_pad_-_what_is_culture.pdf" target="_blank" rel="noopener noreferrer">What is culture? A compilation of quotations</a>. GlobalPAD Core Concepts, University of Warwick.</li>
+        <li>Kuhn, M. H., &amp; McPartland, T. S. (1954). <a href="https://stelar.edc.org/sites/default/files/Kuhn_TwentyStatementsTest.pdf" target="_blank" rel="noopener noreferrer">An Empirical Investigation of Self-Attitudes</a>. The original Twenty Statements Test article.</li>
+        <li>OpenStax, Rice University. Psychology 2e: <a href="https://openstax.org/books/psychology-2e/pages/11-7-trait-theorists" target="_blank" rel="noopener noreferrer">Trait Theorists</a> and <a href="https://openstax.org/books/psychology-2e/pages/14-4-regulation-of-stress" target="_blank" rel="noopener noreferrer">Regulation of Stress</a>. Lifespan Development: <a href="https://openstax.org/books/lifespan-development/pages/10-1-theories-of-adolescent-socioemotional-development" target="_blank" rel="noopener noreferrer">Theories of Adolescent Socioemotional Development</a> and <a href="https://openstax.org/books/lifespan-development/pages/10-2-emotional-and-self-development-in-adolescence" target="_blank" rel="noopener noreferrer">Emotional and Self-Development in Adolescence</a>.</li>
+        <li>UNESCO (2023). <a href="https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research" target="_blank" rel="noopener noreferrer">Guidance for generative AI in education and research</a>.</li>
+        <li>Project Implicit. <a href="https://implicit.harvard.edu/implicit/faqs.html" target="_blank" rel="noopener noreferrer">Frequently Asked Questions</a>, including the distinction between implicit and explicit attitudes.</li>
+        <li>Craig Van Slyke. <a href="https://www.livewellandflourish.com/creating-your-personal-manifesto-a-guide-to-aligning-lifes-purpose-goals-and-intentions/" target="_blank" rel="noopener noreferrer">Creating Your Personal Manifesto</a>. Live Well and Flourish; the guide linked in the assignment.</li>
+      </ul>
+    </section>
+    <footer class="footer"><p>Victor Ibanez · SAS 1: Self and Society</p><a href="#home">Back to the beginning</a></footer>
+  </main>
+</body>
+</html>
